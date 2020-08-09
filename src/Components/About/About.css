@@ -1,0 +1,175 @@
+.about {
+    background: #f0f0f0;
+}
+
+.selfImage {
+    width: 450px;
+    height: 530px;
+    box-shadow: 2px 3px 15px rgb(139, 95, 95);
+    margin-bottom: 20px;
+
+}
+
+.about-text hr {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(141, 66, 78, 0.884), rgba(0, 0, 0, 0));
+    margin-left: -12px;
+    width: 140px;
+}
+
+.medium-text {
+    /* font-family: 'Catamaran', sans-serif; */
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.about-text {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+
+
+.about-text>h1 {
+    font-family: 'Catamaran', sans-serif;
+    color: rgb(139, 95, 95);
+    font-weight: 900;
+    line-height: 20px;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+
+.keyLanguage li {
+    display: inline-block;
+    border-radius: 5px;
+    /* background-color: rgba(146, 108, 108, 0.685); */
+    border: 2px solid rgb(139, 95, 95);
+    opacity: 60%;
+    padding: 5px 15px;
+    margin: 2px;
+}
+
+.keyLanguage li:hover {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    background-color: rgb(139, 95, 95);
+    cursor: pointer;
+}
+
+/* -------------------------------------------------------- */
+.contact-list a,
+.social-contact a {
+    font-size: 15px;
+    text-decoration: none !important;
+    padding: 0px;
+    background-color: transparent;
+    -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+    color: #000;
+    opacity: 0.9;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li .icons {
+    font-size: 20px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+ul li {
+    margin: 13px 0;
+}
+
+
+ul .contact-list:hover {
+    color: rgb(139, 95, 95);
+}
+
+
+ul li .text-icon:hover {
+    color: rgb(51, 51, 51);
+}
+
+.social-contact li {
+    list-style: none;
+    float: left;
+
+}
+
+
+.social-contact li a {
+    font-size: 40px;
+    line-height: 30px;
+    padding: 0px 15px;
+    margin: 0px 10px 0px -10px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    border-radius: 3px;
+    color: rgb(139, 95, 95);
+}
+
+.social-contact li a:hover {
+    background-color: rgb(51, 51, 51);
+    color: rgba(141, 66, 78, 0.884);
+}
+
+@media only screen and (max-width: 575px) {
+    .selfImage {
+        width: 550px;
+        height: 500px;
+        text-align: center;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .about-text hr {
+        margin-left: auto;
+
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .selfImage {
+        width: 100%;
+        height: 500px;
+        text-align: center;
+
+    }
+
+    .about-text hr {
+        margin-left: auto;
+
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .priavte-details {
+        text-align: center;
+    }
+
+    .social-contact {
+        display: inline-block;
+        margin-left: 30px;
+
+    }
+
+    .keyLanguage {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .selfImage {
+        height: 100vh;
+    }
+}

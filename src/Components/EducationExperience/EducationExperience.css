@@ -1,0 +1,83 @@
+.EducationExperience {
+    color: white;
+    padding-top: 10vh;
+    background-image: linear-gradient(to right bottom, rgb(20, 50, 60, 0.5), rgb(0, 0, 0, 0.9)), url("../../Assets/Education_Experience_Background.jpg");
+    background-size: cover;
+}
+
+.EducationExperienceTitle {
+    font-family: 'Catamaran', sans-serif;
+    color: rgb(219, 194, 139);
+    font-weight: 900;
+    line-height: 20px;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+hr {
+    margin-bottom: 30px;
+    width: 15vw;
+}
+
+.Experience,
+.Education {
+    text-align: center;
+
+}
+
+.Experience li,
+.Education li {
+    background: linear-gradient(to right bottom, rgb(20, 50, 60, 0.4), rgb(0, 0, 0, 0.5));
+    font-family: 'Work-Sans', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 10px 50px 20px 50px;
+    width: 35vw;
+    margin: 0 20px 40px 40px;
+    box-shadow: 0 0 10px rgba(238, 214, 164, 1);
+    text-align: center;
+}
+
+.Experience li:hover,
+.Education li:hover {
+    box-shadow: 0 0 25px rgb(228, 200, 140);
+}
+
+
+.Experience li:first-of-type,
+.Education li:first-of-type {
+    border-radius: 0 50px;
+}
+
+.Experience li:last-child,
+.Education li:last-child {
+    border-radius: 50px 0;
+}
+
+.Education span {
+    color: rgba(238, 214, 164, 1);
+    font-size: 18px;
+}
+
+.logoExperince {
+    border-radius: 45%;
+    border: 2px solid black;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 5px rgba(238, 214, 164, 1);
+}
+
+@media only screen and (max-width: 991px) {
+
+    .Experience li,
+    .Education li {
+        width: 80vw;
+        height: 40vh;
+    }
+    .Education img {
+        margin-top:40px;
+    }
+}

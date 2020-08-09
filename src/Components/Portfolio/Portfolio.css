@@ -1,0 +1,44 @@
+.portfolio {
+    background: #f0f0f0;
+    text-align: center;
+}
+
+.portfolioWindows hr {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(141, 66, 78, 0.884), rgba(0, 0, 0, 0));
+}
+
+.portfolioTitle {
+    padding-top: 30px;
+    font-family: 'Catamaran', sans-serif;
+    color: rgb(139, 95, 95);
+    font-weight: 900;
+    line-height: 20px;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.portfolioWindows li {
+    background: linear-gradient(to right bottom, rgb(20, 50, 60, 0.4), rgb(0, 0, 0, 0.5));
+    font-family: 'Work-Sans', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 10px 50px 20px 50px;
+    width: 35vw;
+    margin: 0 20px 40px 40px;
+    box-shadow: 0 0 10px rgba(238, 214, 164, 1);
+}
+
+.portfolioWindows h4 {
+    font-family: 'Catamaran', sans-serif;
+    text-transform: capitalize;
+    margin: -20px 0 20px 0;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.portfolioWindows a {
+    color: rgb(139, 95, 95);
+
+}
