@@ -17,7 +17,7 @@ const NavBar = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
                         <Nav.Link onClick={() => scrollTo(0, 0)} >Home </Nav.Link>
-                        <Nav.Link onClick={() => scrollTo(0, 640)}>About Me </Nav.Link>
+                        <Nav.Link onClick={() => scrollTo(0, 916)}>About Me </Nav.Link>
                         <Nav.Link onClick={() => scrollTo(0, 1285)}>Experiece & Education </Nav.Link>
                         <Nav.Link onClick={() => scrollTo(0, 1800)}>Portfolio </Nav.Link>
                         <Nav.Link onClick={() => scrollTo(0, 500)}>Skills & Tools </Nav.Link>
