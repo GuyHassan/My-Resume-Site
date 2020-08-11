@@ -77,8 +77,7 @@ hr {
     }
 }
 
-@media only screen and (max-width: 991px) {
-
+@media (max-width: 767px) {
     .Experience li,
     .Education li {
         width: 80vw;
