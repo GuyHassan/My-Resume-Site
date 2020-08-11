@@ -70,6 +70,13 @@ hr {
     box-shadow: 0 0 5px rgba(238, 214, 164, 1);
 }
 
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width:480px) {
+    .Education img {
+        margin-top: 40px;
+    }
+}
+
 @media only screen and (max-width: 991px) {
 
     .Experience li,
@@ -77,7 +84,5 @@ hr {
         width: 80vw;
         height: 40vh;
     }
-    .Education img {
-        margin-top:40px;
-    }
+
 }

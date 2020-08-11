@@ -43,7 +43,7 @@ const EducationExperience = () => {
                         Bachelor of Science, Software Engineering. <br />
                         Graduate with honor. <br />
                     </p>
-                    <span> GPA 88</span>
+                    <span> GPA 88 </span>
                 </li>
                 <li >
                     <img src={EDUCATION_LOGO} alt="error" className="logoExperince" />

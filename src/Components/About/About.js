@@ -16,18 +16,18 @@ const About = () => {
     const KeyProgrammingLanguage = () => {
         return (
             <div className="keyLanguage">
-                <p className="medium-text">Key Programing Language:</p>
+                <p className="medium-text">Development Languages :</p>
                 <ul>
                     <li>Javascript</li>
                     <li>React.Js</li>
                     <li>Hooks</li>
                     <li>Node.Js</li>
-                    <li>HTML-5</li>
-                    <li>CSS-3</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
                     <li>Python</li>
                     <li>Java</li>
-                    <li>C++</li>
-                    <li>C</li>
+                    <li>C/C++</li>
+                    <li>Firebase</li>
                 </ul>
             </div>
         )

@@ -170,6 +170,6 @@ ul li .text-icon:hover {
 
 @media only screen and (max-width: 991px) {
     .selfImage {
-        height: 100vh;
+        height: 90vh;
     }
 }
