@@ -44,7 +44,7 @@
     border-radius: 5px;
     /* background-color: rgba(146, 108, 108, 0.685); */
     border: 2px solid rgb(139, 95, 95);
-    opacity: 60%;
+    opacity: 60% !important;
     padding: 5px 15px;
     margin: 2px;
 }
