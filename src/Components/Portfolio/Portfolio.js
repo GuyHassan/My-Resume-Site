@@ -24,7 +24,7 @@ const Portfolio = () => {
                 <h1 className="portfolioTitle">Portfolio</h1>
                 <hr />
                 <h4>More Projects on my github</h4>
-                <h4><a href="https://github.com/GuyHassan" target="_blank">Guy Hassan</a></h4>\
+                <h4><a href="https://github.com/GuyHassan" target="_blank">Guy Hassan</a></h4>
                 <AliceCarousel /* autoPlay autoPlayInterval="1000" */ >
                     <img src={GtasMain} className="sliderimg" id='1' onClick={check} />
                     <img src={VehicleMain} className="sliderimg" id='2' onClick={check} />
@@ -34,7 +34,7 @@ const Portfolio = () => {
         )
     }
     return (
-        <div className="portfolio">
+        <div className="portfolio" id="portfolio">
             <PortfolioWindow />
             {
                 currentPortfolio !== false ?

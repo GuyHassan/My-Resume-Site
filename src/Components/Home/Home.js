@@ -3,7 +3,7 @@ import './Home.css';
 import cv from "../../Assets/CV Guy Hassan - English.pdf"
 const Home = () => {
     return (
-        <div className="Home">
+        <div className="Home" id="home">
             <div id="stars"></div>
             <div id="stars2"></div>
             <div id="stars3"></div>

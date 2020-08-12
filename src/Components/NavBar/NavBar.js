@@ -3,12 +3,14 @@ import { Nav, Navbar } from "react-bootstrap";
 import './NavBar.css';
 import logo from '../../Assets/logoWebsite.png';
 const NavBar = () => {
-    const scrollTo = (x, y) => {
-        window.scrollTo({ top: y, behavior: 'smooth' })
+    const scrollTo = (id) => {
+        var my_element = document.getElementById(id);
+        my_element.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+            inline: "nearest"
+        });
     }
-    window.addEventListener('scroll', (event) => {
-        console.log(window.scrollX, window.scrollY)
-    });
     return (
         <div className="NavBar">
             <Navbar collapseOnSelect expand="md" bg="" variant="dark"  >
@@ -16,11 +18,11 @@ const NavBar = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link onClick={() => scrollTo(0, 0)} >Home </Nav.Link>
-                        <Nav.Link onClick={() => scrollTo(0, 916)}>About Me </Nav.Link>
-                        <Nav.Link onClick={() => scrollTo(0, 1285)}>Experiece & Education </Nav.Link>
-                        <Nav.Link onClick={() => scrollTo(0, 1800)}>Portfolio </Nav.Link>
-                        <Nav.Link onClick={() => scrollTo(0, 500)}>Skills & Tools </Nav.Link>
+                        <Nav.Link href="#home" onClick={() => scrollTo("home")} >Home </Nav.Link>
+                        <Nav.Link href="#about" onClick={() => scrollTo("about")}>About Me </Nav.Link>
+                        <Nav.Link href="#Experience&Education" onClick={() => scrollTo("EducationExperience")}>Experience & Education </Nav.Link>
+                        <Nav.Link href="#Portfolio" onClick={() => scrollTo("portfolio")}>Portfolio </Nav.Link>
+                        <Nav.Link href="#Skills&Tools" onClick={() => scrollTo("SkillsTools")}>Skills & Tools </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

@@ -80,7 +80,7 @@ const About = () => {
         );
     }
     return (
-        <div className="about">
+        <div className="about" id="about">
             <div className="container">
                 <div className="row mt-5 mb-5">
                     <div className="col-sm-12 col-md-8 col-lg-6">
