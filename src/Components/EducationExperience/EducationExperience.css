@@ -73,7 +73,7 @@ hr {
 /* Mobile */
 @media screen and (min-width: 320px) and (max-width:480px) {
     .Education img {
-        margin-top: 40px;
+        margin-top: 30px;
     }
 }
 
@@ -81,7 +81,7 @@ hr {
     .Experience li,
     .Education li {
         width: 80vw;
-        height: 40vh;
+        height: 45%;
     }
 
 }

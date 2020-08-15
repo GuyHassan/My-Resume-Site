@@ -104,7 +104,7 @@
     }
     hr{
         width:40vw;
-        background-image: linear-gradient(to right, rgba(240, 240, 240, 0.5), rgba(97, 112, 8, 0.884), rgba(255, 255, 255, 0.5));
+        background-image: linear-gradient(to right, rgba(240, 240, 240, 0.5), rgba(96, 112, 8, 0.699), rgba(255, 255, 255, 0.5));
 
     }
 }
