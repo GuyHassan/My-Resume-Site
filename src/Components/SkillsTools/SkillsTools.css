@@ -1,0 +1,138 @@
+.SkillsTools {
+    color: white;
+    padding-top: 20px;
+    background-image: linear-gradient(to right bottom, rgb(20, 50, 60, 0.5), rgb(0, 0, 0, 0.5)), url("../../Assets/Skills_Tools_Background.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.SkillsToolsTitle {
+    font-family: 'Catamaran', sans-serif;
+    color: rgb(219, 194, 139);
+    font-weight: 900;
+    line-height: 20px;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.SkillsTools h4 {
+    font-family: 'Catamaran', sans-serif;
+    text-transform: capitalize;
+    margin: -20px 0 20px 0;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+/* ------------------------------------------ */
+
+.SkillsTools li {
+    margin-right: 15px;
+    transition: transform .2s;
+    width: 22vw;
+    height: 40vh;
+    display: inline-block;
+    background: linear-gradient(to right bottom, rgba(255, 180, 180, 0.2), rgba(0, 0, 0, 0.4));
+    border-radius: 50px 30px;
+
+}
+
+.SkillsTools li:hover {
+    transform: scale(1.02);
+}
+
+.SkillsTools img {
+    margin-top: 8vh;
+    width: 15vw;
+    height: 25vh;
+    border-radius: 0;
+}
+
+.SkillsTools li:hover img {
+    transform: scale(1.1);
+}
+
+
+
+/* -------------------------------- need  to fixing */
+.SkillsTools {
+    position: relative;
+}
+
+.image {
+    opacity: 1;
+    /* display: block; */
+    /* width: 100%; */
+    /* height: auto; */
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* .SkillsTools li:hover .image {
+    opacity: 0.3;
+} */
+
+.SkillsTools li:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(83, 50, 160, 0.8));
+    border-radius: 50px 50px;
+    font-weight: 900;
+    color: rgb(219, 194, 139);
+    font-size: 18px;
+    padding: 16px 32px;
+}
+
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width:480px) {
+    .SkillsTools li {
+        width: 100vw;
+    }
+
+    .SkillsTools li {
+
+        transition: transform .2s;
+        width: 80vw;
+        height: 35vh;
+
+    }
+
+    .SkillsTools img {
+        margin-top: -6px;
+        width: 150px;
+        height: 35vh;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width:676px) {
+    .SkillsTools li {
+        /* width: 32.8vw; */
+        /* height: 50vh; */
+        /* margin: 0 1px 1px 0; */
+        margin-right: 2px;
+        transition: transform .2s;
+        width: 60vw;
+        height: 40vh;
+
+    }
+
+    .SkillsTools img {
+        width: 60vw;
+        height: 30vh;
+    }
+
+
+}
