@@ -1,8 +1,9 @@
 .SkillsTools {
     color: rgb(219, 194, 139);
     padding-top: 20px;
-    background-image: linear-gradient(to right bottom, rgb(20, 50, 60, 0.3), rgb(0, 0, 0, 0.9)), url("../../Assets/check.jpg");
+    background-image: linear-gradient(to right bottom, rgb(20, 50, 60, 0.6), rgb(0, 0, 0, 0.9)), url("../../Assets/Skills_Tools_Background.jpg");
     background-size: cover;
+    background-position: right;
     text-align: center;
 }
 
@@ -20,7 +21,6 @@
     text-transform: capitalize;
     color: moccasin;
     margin: -20px 0 20px 0;
-    /* font-weight: 900; */
     font-size: 17px;
 }
 
@@ -72,7 +72,7 @@
 }
 
 .SkillsTools li:hover .image {
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 .SkillsTools li:hover .middle {
@@ -80,10 +80,10 @@
 }
 
 .text {
-    background: linear-gradient(to right bottom, rgba(117, 117, 117, 0.6), rgba(83, 50, 160, 0.8));
+    background: linear-gradient(to right bottom, rgba(117, 117, 117, 0.6), rgba(126, 104, 175, 0.8));
     border-radius: 50px 50px;
     font-weight: 900;
-    color: rgb(219, 194, 139);
+    color: rgb(243, 196, 94);
     font-size: 18px;
     padding: 16px 32px;
 }
@@ -91,7 +91,6 @@
 /* Mobile */
 @media screen and (min-width: 320px) and (max-width:480px) {
     .SkillsTools li {
-
         transition: transform .2s;
         width: 80vw;
         height: 35vh;
@@ -105,6 +104,8 @@
     }
     hr{
         width:40vw;
+        background-image: linear-gradient(to right, rgba(240, 240, 240, 0.5), rgba(97, 112, 8, 0.884), rgba(255, 255, 255, 0.5));
+
     }
 }
 

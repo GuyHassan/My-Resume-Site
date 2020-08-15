@@ -637,15 +637,15 @@ a.resume>h2 {
 
 @media screen and (min-width: 320px) and (max-width:480px) {
 
-    /* #stars:before,
+    #stars:before,
     #stars2:before,
     #stars3:before {
-        top: 100000px;
+        top: 10000px;
     }
 
     #stars,
     #stars2,
     #stars3 {
-        top:100000px;
-    } */
+        top:10000px;
+    }
 }
