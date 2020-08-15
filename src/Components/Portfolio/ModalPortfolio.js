@@ -2,7 +2,6 @@ import React from "react";
 import "./ModalPortfolio.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
-// import { } from '../../Assets/GTAS - Project/';
 
 const ModalPortfolio = ({ showModal, setShowModal, project }) => {
     showModal
@@ -30,12 +29,12 @@ const ModalPortfolio = ({ showModal, setShowModal, project }) => {
                                     </ul>
                                 </div>
                                 {project.site ?
-                                    <a href={project.site} target="_blank" className="btn-website">
+                                    <a href={project.site} target="_blank" rel="noopener noreferrer" className="btn-website">
                                         {project.name} - Website
                                         <br /><br />
                                     </a>
                                     : null}
-                                <a href={project.code} target="_blank" className="btn-code">
+                                <a href={project.code} target="_blank" rel="noopener noreferrer" className="btn-code">
                                     Github Code
                                 </a>
                             </div>
@@ -45,7 +44,7 @@ const ModalPortfolio = ({ showModal, setShowModal, project }) => {
                                         return (
                                             <div key={index}>
                                                 <p className="titleImg">{image[1]}</p>
-                                                <a href={image[0]} target="_blank">
+                                                <a href={image[0]} target="_blank" rel="noopener noreferrer">
                                                     <img src={image[0]} alt="" className="img-fluid" />
                                                 </a>
                                             </div>

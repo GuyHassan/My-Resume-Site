@@ -10,13 +10,11 @@ import { ProjectTypes } from './ProjectTypes';
 
 const Portfolio = () => {
     const [currentPortfolio, setCurrentPortfolio] = useState(false)
-    const [showHover, setShowHover] = useState(false);
     const [showModal, setShowModal] = useState(false);
     const ProjectDetails = ProjectTypes();
-    // const tmp = { name: 'guy', description: 'wow wow wow', site: 'guy.hassan@gmail.com', techs: ['react', 'hooks'], images: [PrivateProject1, PrivateProject2] }
-    const check = (e) => {
-
+    const onClickPortfolio = (e) => {
         setCurrentPortfolio(Number(e.target.id))
+        setShowModal(true)
     }
     const PortfolioWindow = () => {
         return (
@@ -24,11 +22,11 @@ const Portfolio = () => {
                 <h1 className="portfolioTitle">Portfolio</h1>
                 <hr />
                 <h4>More Projects on my github</h4>
-                <h4><a href="https://github.com/GuyHassan" target="_blank">Guy Hassan</a></h4>
-                <AliceCarousel /* autoPlay autoPlayInterval="1000" */ >
-                    <img src={GtasMain} className="sliderimg" id='1' onClick={check} />
-                    <img src={VehicleMain} className="sliderimg" id='2' onClick={check} />
-                    <img src={MemoryGameMain} className="sliderimg" id='3' onClick={check} />
+                <h4><a href="https://github.com/GuyHassan" target="_blank" rel="noopener noreferrer">Guy Hassan</a></h4>
+                <AliceCarousel >
+                    <img src={GtasMain} className="sliderimg" id='1' onClick={onClickPortfolio} alt='NoImage' />
+                    <img src={VehicleMain} className="sliderimg" id='2' onClick={onClickPortfolio} alt='NoImage' />
+                    <img src={MemoryGameMain} className="sliderimg" id='3' onClick={onClickPortfolio} alt='NoImage' />
                 </AliceCarousel>
             </div>
         )
@@ -40,7 +38,7 @@ const Portfolio = () => {
                 currentPortfolio !== false ?
                     <ModalPortfolio
                         project={ProjectDetails[currentPortfolio - 1]}
-                        showModal={true}
+                        showModal={showModal}
                         setShowModal={() => {
                             setShowModal(false);
                             setCurrentPortfolio(false);

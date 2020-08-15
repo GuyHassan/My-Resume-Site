@@ -11,7 +11,7 @@ const Home = () => {
                 <div className="animation">
                     <h1 className="title">Hi ! <span>I'm Guy Hassan</span></h1>
                     <hr />
-                    <a className="resume" href={cv} target="_blank"> <h2>Get My Resume</h2></a>
+                    <a className="resume" href={cv} target="_blank" rel="noopener noreferrer"> <h2>Get My Resume</h2></a>
                 </div>
             </div>
         </div>

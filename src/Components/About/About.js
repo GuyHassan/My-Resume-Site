@@ -40,7 +40,7 @@ const About = () => {
                         <FontAwesomeIcon
                             icon={faEnvelope}
                             className="icons"></FontAwesomeIcon>
-                        <a className="text-icon" target="_blank" href="mailto:guy.hasan@gmail.com">
+                        <a className="text-icon" target="_blank" rel="noopener noreferrer" href="mailto:guy.hasan@gmail.com">
                             guy.hasan@gmail.com
                          </a>
                     </li>
@@ -61,17 +61,17 @@ const About = () => {
                 </ul>
                 <ul className="social-contact">
                     <li>
-                        <a className="linkedin" target="_blank" href="https://www.linkedin.com/in/guy-hassan-790a43160/">
+                        <a className="linkedin" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/guy-hassan-790a43160/">
                             <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" href="https://github.com/GuyHassan">
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/GuyHassan">
                             <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
                         </a>
                     </li>
                     <li>
-                        <a className="facebook" target="_blank" href="https://www.facebook.com/guy.hasan/">
+                        <a className="facebook" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/guy.hasan/">
                             <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
                         </a>
                     </li>

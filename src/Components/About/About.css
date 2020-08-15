@@ -118,24 +118,6 @@ ul li .text-icon:hover {
     color: rgba(141, 66, 78, 0.884);
 }
 
-@media only screen and (max-width: 575px) {
-    .selfImage {
-        width: 550px;
-        height: 500px;
-        text-align: center;
-    }
-
-    .about-text {
-        text-align: center;
-    }
-
-    .about-text hr {
-        margin-left: auto;
-
-    }
-
-}
-
 @media only screen and (max-width: 768px) {
     .selfImage {
         width: 100%;
@@ -165,11 +147,5 @@ ul li .text-icon:hover {
 
     .keyLanguage {
         text-align: center;
-    }
-}
-
-@media only screen and (max-width: 991px) {
-    .selfImage {
-        height: 90vh;
     }
 }
