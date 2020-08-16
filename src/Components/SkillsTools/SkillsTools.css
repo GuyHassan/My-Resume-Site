@@ -102,9 +102,10 @@
         width: 150px;
         height: 35vh;
     }
-    hr{
-        width:40vw;
-        background-image: linear-gradient(to right, rgba(240, 240, 240, 0.5), rgba(96, 112, 8, 0.699), rgba(255, 255, 255, 0.5));
+
+    hr {
+        width: 35vw;
+        background-image: linear-gradient(to right, rgba(240, 240, 240, 0.1), rgba(243, 196, 94, 0.7), rgba(255, 255, 255, 0.1));
 
     }
 }
@@ -120,7 +121,7 @@
     }
 
     .SkillsTools img {
-        margin-top:50px;
+        margin-top: 50px;
         width: 60vw;
         height: 30vh;
     }

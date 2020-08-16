@@ -1,6 +1,6 @@
 .EducationExperience {
     color: white;
-    padding-top: 10vh;
+    padding-top: 6vh;
     background-image: linear-gradient(to right bottom, rgb(20, 50, 60, 0.5), rgb(0, 0, 0, 0.9)), url("../../Assets/Education_Experience_Background.jpg");
     background-size: cover;
 }
