@@ -113,8 +113,6 @@
 /* Small Browser */
 @media screen and (min-width: 480px) and (max-width:676px) {
     .SkillsTools li {
-        /* margin-right: 2px; */
-        /* transition: transform .2s; */
         width: 80vw;
         height: 50vh;
 
