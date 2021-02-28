@@ -4,7 +4,7 @@ import selfImage from '../../Assets/mySelfImage.jpeg'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faEnvelope,
-    faSms,
+    faPhone,
     faGlobeAmericas,
 } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -45,7 +45,7 @@ const About = () => {
                          </a>
                     </li>
                     <li className="contact-list">
-                        <FontAwesomeIcon icon={faSms} className="icons"></FontAwesomeIcon>
+                        <FontAwesomeIcon icon={faPhone} className="icons"></FontAwesomeIcon>
                         <a className="text-icon" href="callto:(+972) 52 4899286">
                             +972 - 524 - 899 - 286
                         </a>
@@ -55,7 +55,7 @@ const About = () => {
                             icon={faGlobeAmericas}
                             className="icons"></FontAwesomeIcon>
                         <a href="none" className="text-icon">
-                            South, Israel
+                            Ashdod, Israel
                         </a>
                     </li>
                 </ul>

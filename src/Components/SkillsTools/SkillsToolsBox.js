@@ -4,7 +4,7 @@ const SkillsToolsBox = ({ logo, title, key }) => {
         <li key={key}  >
             <img src={logo} alt="Avatar" className="image" />
             <div className="middle" >
-                <h2 className="text">{title}</h2>
+                <h3 className="text">{title}</h3>
 
             </div>
         </li>

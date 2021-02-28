@@ -5,6 +5,7 @@
     background-size: cover;
     background-position: right;
     text-align: center;
+    position:relative;
 }
 
 .SkillsToolsTitle {

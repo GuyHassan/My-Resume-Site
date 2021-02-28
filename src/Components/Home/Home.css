@@ -42,12 +42,17 @@ h1>span {
 
 a.resume {
     color: rgb(219, 194, 139);
+    margin: 0 auto;
+    max-width: 1000px;
+
 }
 
 a.resume>h2 {
     font-family: 'Catamaran', sans-serif;
     color: white;
     font-size: 18px;
+    width: 50%;
+    margin: 0 auto;
 }
 
 
@@ -646,6 +651,6 @@ a.resume>h2 {
     #stars,
     #stars2,
     #stars3 {
-        top:10000px;
+        top: 10000px;
     }
 }

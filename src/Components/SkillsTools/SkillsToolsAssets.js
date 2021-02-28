@@ -21,11 +21,11 @@ const SkillsToolsProperties = () => {
 
             },
             {
-                title: 'Html5',
+                title: 'HTML 5',
                 logo: require("../../Assets/SkillsTools/html5.svg"),
             },
             {
-                title: 'Css3',
+                title: 'CSS 3',
                 logo: require("../../Assets/SkillsTools/css.svg"),
             },
             {
