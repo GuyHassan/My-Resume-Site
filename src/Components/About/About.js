@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './About.css';
 import selfImage from '../../Assets/mySelfImage.jpeg'
+import countapi from 'countapi-js';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faEnvelope,
@@ -79,6 +80,9 @@ const About = () => {
             </div>
         );
     }
+    useEffect(() => {
+        countapi.hit('guy-hassan.herokuapp.com', 'visitors').then((result) => { console.log(`Vistors: ${result.value}`); });
+    })
     return (
         <div className="about" id="about">
             <div className="container">
