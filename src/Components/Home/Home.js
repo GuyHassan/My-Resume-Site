@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import cv from "../../Assets/CV Guy Hassan - English.pdf"
+import cv from "../../Assets/CV Guy Hassan (E).pdf"
 const Home = () => {
     return (
         <div className="Home" id="home">
