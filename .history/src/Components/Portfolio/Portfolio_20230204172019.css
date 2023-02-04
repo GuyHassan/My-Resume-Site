@@ -1,0 +1,167 @@
+.portfolio {
+    background: #f0f0f0;
+    /* height: 100vh; */
+}
+
+
+.portfolioTitle {
+    padding-top: 30px;
+    font-family: 'Catamaran', sans-serif;
+    color: rgb(139, 95, 95);
+    font-weight: 900;
+    line-height: 20px;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.portfolioWindows hr {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(141, 66, 78, 0.884), rgba(0, 0, 0, 0));
+}
+
+.portfolioWindows h4 {
+    font-family: 'Catamaran', sans-serif;
+    text-transform: capitalize;
+    margin: -20px 0 20px 0;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.portfolioWindows a {
+    color: rgb(139, 95, 95);
+}
+
+.portfolioWindows h1,
+.portfolioWindows h4 {
+    text-align: center;
+}
+
+.sliderimg {
+    margin-left: 20vw;
+    width: 60vw;
+    height: 70vh;
+    border-radius: 10px;
+}
+
+.sliderimg:hover {
+    background: black;
+    box-shadow: 0 0 10px rgb(139, 95, 95);
+    cursor: pointer;
+
+}
+
+/* .alice-carousel__dots li {
+    margin-left: 10px;
+    background-color: rgb(139, 95, 95);
+} */
+
+.alice-carousel__prev-btn {
+    /* margin: 0 60px 10px 41%; */
+}
+
+.alice-carousel__prev-btn p,
+.alice-carousel__next-btn p {
+    /* color: white; */
+}
+
+.alice-carousel__prev-btn,
+.alice-carousel__next-btn {
+    /* width: 100px !important;
+    height: 40px;
+    text-align: left;
+    background: linear-gradient(to bottom, rgb(136, 113, 113, 0.6) 0%, rgb(139, 95, 95, 0.6) 100%);
+    /* W3C */
+    border: none;
+    border-radius: 15px;
+    position: relative;
+    border-bottom: 4px solid rgb(124, 58, 58, 0.4);
+    color: #fbfbfb;
+    font-weight: 600;
+    font-family: 'Work-Sans', sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .4);
+    font-size: 15px;
+    text-indent: 5px;
+    box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    margin-bottom: 20px; */
+}
+
+.alice-carousel__prev-btn:active,
+.alice-carousel__next-btn:active {
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, .2);
+    top: 1px;
+}
+
+.alice-carousel__next-btn:after {
+    content: "";
+    width: 0;
+    height: 0;
+    display: block;
+    border-top: 20px solid rgba(107, 61, 61, 0.178);
+    border-bottom: 20px solid rgba(107, 61, 61, 0.178);
+    border-left: 16px solid transparent;
+    border-right: 20px solid rgba(107, 61, 61, 0.178);
+    position: absolute;
+    opacity: 0.9;
+    right: 0;
+    top: 0;
+    border-radius: 0 15px 15px 0;
+}
+
+.alice-carousel__prev-btn:after {
+    content: "";
+    width: 0;
+    height: 0;
+    display: block;
+    border-top: 20px solid rgba(107, 61, 61, 0.178);
+    border-bottom: 20px solid rgba(107, 61, 61, 0.178);
+    border-right: 16px solid transparent;
+    border-left: 20px solid rgba(107, 61, 61, 0.178);
+    position: absolute;
+    opacity: 0.6;
+    left: 0;
+    top: 0;
+    border-radius: 15px 0 0 15px;
+}
+
+
+
+/* Tablet */
+@media screen and (min-width: 676px) and (max-width:1100px) {
+    .sliderimg {
+        margin-left: 10%;
+        width: 80vw;
+        height: 350px;
+    }
+
+    .alice-carousel__prev-btn {
+        margin: 0 50px 10px 38vw;
+    }
+}
+
+/* small browser */
+
+@media screen and (min-width: 480px) and (max-width:676px) {
+
+    .sliderimg {
+        margin-left: 10%;
+        width: 80vw;
+        height: 450px;
+    }
+
+    .alice-carousel__prev-btn {
+        margin: 0 50px 10px 140px;
+    }
+}
+
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width:480px) {
+    .sliderimg {
+        margin-left: 2.5vw;
+        width: 95%;
+        height: 300px;
+    }
+
+    .alice-carousel__prev-btn {
+        margin: 0 30px 10px 70px;
+    }
+}
